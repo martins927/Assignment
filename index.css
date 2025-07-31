@@ -1,0 +1,162 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-items: center;
+    flex-grow: 100%;
+}
+.all{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    gap: 12px;
+    font-size: 13px;
+    list-style: none;
+}
+nav ul li:hover{
+    color: rgb(12, 12, 231);
+    cursor: pointer;
+}
+.all h4{
+    font-size: 16px;
+    font-weight: light;
+    margin-top: 10px;
+}
+.btn-top{
+    padding: 9px;
+}
+.btn-one{
+    margin-left: 20px;
+    margin-right: 6px;
+    background-color: white;
+    border-width:1px;
+    border-color: rgb(130, 105, 105);
+    border-radius: 5px;
+    color: rgb(155, 141, 141);
+}
+.top-one{ 
+    background-color: white;
+}
+.top{
+    background-color: rgb(231, 218, 244);
+    justify-items: center;
+    padding:60px;
+}
+span{
+    color: rgb(12, 12, 231);
+}
+.top-two h5{
+    font-size: 25px;
+}
+.button-one{
+    margin-top: 0px;
+}
+.puple{
+    display: flex;
+    background-color: rgb(5, 5, 70);
+    padding: 30px;
+}
+.box{
+    background-color: rgb(6, 6, 122);
+    margin: 10px;
+    color: white;
+    padding:10px 23px ;
+    font-size: 12px;
+    border-radius:8px ;
+}
+.hmm{
+    color: white;
+    font-size: 13px;
+}
+.ok{
+    font-size: 18px;
+    color: white;
+}
+.choose button{
+    margin-top: 50px;
+    border-color: rgb(224, 219, 219);
+    color: rgb(11, 11, 145);
+    font-weight: bold;
+    font-size: 11px;
+    background-color: white;
+}
+.choose span{
+    color: rgb(115, 115, 115);
+    font-size: 12px;
+}
+.choose p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.net{
+    background-color: rgb(247, 243, 243);
+    padding: 0px 40px 40px 40px;
+    margin-bottom:5px ;
+}
+.right-section p{
+    font-size: 10px;
+}
+.sections{
+    display: flex;
+}
+.left-section img{
+    max-height: 210px;
+    width: 200px;
+    margin-left: 0px;
+}
+.left-section{
+    padding: 6px;
+    background-color: rgb(229, 227, 232);
+    border-radius: 18px;
+    margin-left: 20px;
+    box-shadow: 0px 2px 0px 0px rgb(57, 52, 52);
+}
+.left-section span{
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+.left-section p{
+    font-size: 10px;
+}
+.top-sec button{
+    color: brown;
+    border-color: brown;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+.top-sec p{
+    font-size: 19px;
+    font-weight: bold;
+}
+.top-sec span{
+    font-size: 12px;
+    color: rgb(99, 99, 99);
+}
+.middle{
+    display: flex;
+}
+.middle img{
+    margin: 8px;
+    border-radius: 10px;
+    padding: 7px;
+}
+.last{
+    background-color: rgb(239, 238, 238);
+}
+.middle p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.middle span{
+    color: blue;
+    font-size: 12px;
+    font-weight: normal;
+}
+.btn-two{
+    color: white;
+    background-color: rgb(44, 9, 126);
+    border-color:rgb(44, 9, 126) ;
+    border-radius: 6px;
+    padding: 4px;
+}

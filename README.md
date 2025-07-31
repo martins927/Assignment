@@ -1,2 +1,0 @@
-# Assignment
-Easy Assignment
