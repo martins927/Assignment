@@ -14,7 +14,6 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    
 }
 .heading{
     color: white;
@@ -56,47 +55,49 @@ body{
     font-weight: bold;
 }
 .batch-three{
-     display: flex;
-    background-color: black;
+    background-image: url(edited.png);
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    
+}
+.batch-three h6{
+    font-size: 15px;
 }
 .divide{
     display: flex;
+    justify-content: center;
 }
 .batch-three-right{
-    color: white;      
+    color: black;
 }
-.batch-three-left{
-    color: white;
+.batch-three-left{ 
     margin-bottom: 40px;
 
                                
 }
 .gallery{
-    background-color: black;
     color: white;
+    background-size: cover;
+    background-position: center;
     justify-items: center;
-    margin-bottom: 0px;
 }
 .gallery h3{
     margin-top: 0px;
     padding: 20px;
 }
-.img-gal{
-    justify-items: center;
-    padding-bottom: 30px;
-    padding-left: 40px;
+.imageGallery{
+    display: flex;
+    
 }
 .img-gal img{
     margin-bottom: 10px;
 }
 .bottom{
-     position: relative;
     background-image: url('pluto.png');
     background-size: cover;
-    height: 600px;
-    
+    height: 500px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
