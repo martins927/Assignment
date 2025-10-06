@@ -9,6 +9,22 @@
 <body>
   <script src="wed.js"></script>
     <header>
+       <audio id="background-audio" loop>
+  <source src="Alex_Warren_-_Ordinary_CeeNaija.com_.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<button id="play-button">Play Audio</button>
+
+<script>
+  const audio = document.getElementById('background-audio');
+  const playButton = document.getElementById('play-button');
+
+  playButton.addEventListener('click', () => {
+    audio.play();
+    playButton.style.display = 'none';
+  });
+</script>
       <section class="hero">
         <div class="heading">
         <p>29/November/2025</p>
@@ -67,11 +83,6 @@
           <p>We Can't Wait To <br>See You There</p>
           <h2>Copyright © 2025 wilmus Network. All Right Reserved</h2>
       </section>
-      <audio id="myAudio" autoplay loop>
-        <source src="Alex_Warren_-_Ordinary_CeeNaija.com_.mp3">
-      </audio>
-    <script>
-      var audio = document.getElementById('myAudio');
-    </script>
+     
 </body>
 </html>
