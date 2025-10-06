@@ -118,4 +118,9 @@ body{
     padding: 20px;
   }
 }
-```
+
+/* Default styles for large screens */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
