@@ -1,10 +1,11 @@
 *{
     margin-left: 10px;
     margin-right: 10px;
-    position: relative;
+    flex-grow: 100%;
 }
 body{
     background-color: rgb(41, 39, 39);
+    flex-grow: 0%;
 }
 .hero{
      position: relative;
@@ -45,7 +46,7 @@ body{
 .right{
     color: white;
     margin-top: 70px;
-    
+    justify-items: center;
 }
 .event{
     justify-items: center;
@@ -55,7 +56,7 @@ body{
     font-weight: bold;
 }
 .batch-three{
-    background-image: url(edited.png);
+    background-image: url(7b8f647c7d91e6158ac2ff8a18ffd165\ -\ Copy.png);
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -68,7 +69,7 @@ body{
     justify-content: center;
 }
 .batch-three-right{
-    color: black;
+    color: white;
 }
 .batch-three-left{ 
     margin-bottom: 40px;
@@ -85,19 +86,26 @@ body{
     margin-top: 0px;
     padding: 20px;
 }
-.imageGallery{
-    display: flex;
-    
-}
-.img-gal img{
+.gallery img{
     margin-bottom: 10px;
 }
 .bottom{
     background-image: url('pluto.png');
     background-size: cover;
     height: 500px;
-    font-size: 30px;
-    align-items: center;
-    justify-content: center;
+    justify-items: center;
+    color: white;
+}
+.bottom-text{
+    
+}
+.bottom p{
+    font-size: 40px;
     display: flex;
+    padding-top: 100px;
+}
+.bottom h2{
+    font-size: 15px;
+    display: flex;
+    padding-top: 240px;
 }

@@ -3,6 +3,7 @@
     justify-items: center;
     flex-grow: 100%;
 }
+
 .all{
     display: flex;
 }
